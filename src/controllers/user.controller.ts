@@ -87,9 +87,12 @@ export const updateUser = async (
   }
 };
 
-export const deleteUser = async (req: Request, res: Response): Promise<void> => {
+export const deleteUser = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
   try {
-    const id = Number(req.params.id); 
+    const id = Number(req.params.id);
 
     const deletedUser = await deleteUserInDB(id);
 
