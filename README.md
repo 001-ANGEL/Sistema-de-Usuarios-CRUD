@@ -47,18 +47,6 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
    DATABASE_NAME=usuarios_db
    ```
-
-# Ejecucion
-
-Ejecuta uno de los 3 comandos
-
-- **`npm run dev`**: Usa `nodemon` para detectar cambios en tiempo real.
-
-- **`npm run build`**: Realiza la compilación del código TypeScript a JavaScript para su ejecución en producción.
-
-- **`npm start`**: Ejecuta la aplicación en modo producción tras compilarla (si es necesario).
-
-
 # Ejecucion
 
 Ejecuta uno de los 3 comandos
