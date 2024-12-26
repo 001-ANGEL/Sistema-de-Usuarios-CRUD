@@ -1,0 +1,13 @@
+node_modules/
+
+dist/
+
+package-lock.json
+
+.env
+
+# Jest coverage reports
+coverage/
+
+# Jest cache directory
+jest-cache/
